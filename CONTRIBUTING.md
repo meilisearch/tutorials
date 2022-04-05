@@ -1,13 +1,7 @@
----
 
-COMMENT TO REMOVE
-
-Be aware of XXX in sentences and links: they should be replaced by the actual repository name or the appropriate information..
-
----
 # Contributing <!-- omit in toc -->
 
-First of all, thank you for contributing to MeiliSearch! The goal of this document is to provide everything you need to know in order to contribute to XXX.
+First of all, thank you for contributing to MeiliSearch! The goal of this document is to provide everything you need to know in order to contribute to tutorials repository.
 
 <details open="open">
 <summary>Table of Contents</summary>
