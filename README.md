@@ -21,4 +21,4 @@
 
 | Tutorial Name | Blog Post Link  | Description |
 |-----------|------------|-------------|
-| MeiliSearch Multi-Tenancy | [ MeiliSearch Multi-tenancy](https://blog.meilisearch.com/multi-tenancy/) |  Add Meilisearch to your multi-tenant application  |
+| [MeiliSearch Multi-Tenancy](https://github.com/meilisearch/tutorials/tree/main/src/tenant-token-tutorial) | [ MeiliSearch Multi-tenancy](https://blog.meilisearch.com/multi-tenancy/) |  Add Meilisearch to your multi-tenant application  |
