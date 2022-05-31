@@ -2,7 +2,8 @@
   <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/master/assets/logos/logo.svg" alt="Meilisearch" width="200" height="200" />
 </p>
 <h1 align="center">Meilisearch Tutorials</h1>
-<h5 align="center">This repository lists all the tutorials that use Meilisearch
+<h5 align="center">This repository lists some specific tutorials that use Meilisearch, and did not fit in <a href="https://github.com/meilisearch/demos" target="_blank">our repository dedicated to our demonstrations</a>.<br />
+Please refer to our  <a href="https://github.com/meilisearch/demos" target="_blank">Demos repository</a> to find most of our Demo and tutorials ressources.
 </h5>
 <h4 align="center">
   <a href="https://github.com/meilisearch/MeiliSearch">Meilisearch</a> |
