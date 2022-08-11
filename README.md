@@ -18,8 +18,8 @@ Please refer to our  <a href="https://github.com/meilisearch/demos" target="_bla
   <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-MeiliSearch-blue.svg?logo=slack" alt="Slack"></a>
 </p>
 
-# All Meilisearch tutorials
+# Meilisearch tutorials
 
 | Tutorial Name | Blog Post Link  | Description |
 |-----------|------------|-------------|
-| [MeiliSearch Multi-Tenancy](https://github.com/meilisearch/tutorials/tree/main/src/tenant-token-tutorial) | [ MeiliSearch Multi-tenancy](https://blog.meilisearch.com/multi-tenancy/) |  Add Meilisearch to your multi-tenant application  |
+| [Meilisearch Multi-Tenancy](https://github.com/meilisearch/tutorials/tree/main/src/tenant-token-tutorial) | [ Meilisearch Multi-tenancy](https://blog.meilisearch.com/multi-tenancy/) |  Add Meilisearch to your multi-tenant application  |
