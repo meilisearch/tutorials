@@ -63,13 +63,14 @@ function App() {
         <div className="flex flex-wrap searchResults">
           {resultSearch?.map((result) => (
             <Item
+
               url={result.url}
               image={result.images}
-              name={result._formatted.name}
+              name={result.name}
               category={result.category}
               vendor={result.vendor}
               price={result.price}
-              id={result.id}
+              key={result.id}
               />
           ))}
           </div>
