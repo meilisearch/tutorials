@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/master/assets/logos/logo.svg" alt="MeiliSearch-Vue" width="200" height="200" />
+</p>
+<h1 align="center">React + Meilisearch tutorial</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+  <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a> |
+  <a href="https://docs.meilisearch.com">Documentation</a> |
+  <a href="https://www.meilisearch.com">Website</a> |
+  <a href="https://blog.meilisearch.com">Blog</a> |
+  <a href="https://twitter.com/meilisearch">Twitter</a> |
+  <a href="https://docs.meilisearch.com/faq">FAQ</a>
+</h4>
 
-## Available Scripts
+<p align="center">
+  <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-meilisearch-blue.svg?logo=slack" alt="Slack"></a>
+  <a href="https://github.com/meilisearch/meilisearch/discussions" alt="Discussions"><img src="https://img.shields.io/badge/github-discussions-red" /></a>
+</p>
 
-In the project directory, you can run:
+<p align="center">How to implement instant search within 5 minutes in your React app!</p>
 
-### `npm start`
+## 📖 Documentation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+See our [Documentation](https://docs.meilisearch.com/learn/security/tenant_tokens.html#what-is-multitenancy) or our [API References](https://docs.meilisearch.com/reference/api/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎁 Content of this repository
+In this repository, you will find a React application that leverages Meilisearch to create a search-as-you-type experience. This application is the outcome of the tutorial titled [How to implement instant search within 5 minutes in your React app!](https://blog.meilisearch.com/how-to-implement-instant-search-within-5-minutes-in-your-react-app/).
 
-### `npm test`
+## 📝 Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://docs.npmjs.com/cli/v8/configuring-npm/install) or [yarn](https://yarnpkg.com/) 
 
-### `npm run build`
+## 🎬 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navigate to the project folder and run:
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+or 
 
-### `npm run eject`
+```
+yarn
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Run the setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+yarn setup_meili
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+or 
 
-## Learn More
+```bash
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm run setup_meili
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+This does the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Download and run Meilisearch using Docker 
 
-### Analyzing the Bundle Size
+- Creates an index called `decathlon` in your Meilisearch instance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Adds documents to the index
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 5. Run the project
 
-### Advanced Configuration
+You can now run the project. The front-end client is now communicating with your Meilisearch instance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
 
-### Deployment
+yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
 
-### `npm run build` fails to minify
+or
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+
+npm run start
+
+```
+
+ Visit `http://localhost:3000` in your browser and start searching with Meilisearch!
