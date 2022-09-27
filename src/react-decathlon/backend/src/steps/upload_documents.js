@@ -10,7 +10,7 @@ const { MeiliSearch } = require('meilisearch')
 
     const decathlon = require('../decathlon.json')
 
-    const index = await meili.index('decathlon')
+    const index = meili.index('decathlon')
 
     await index.addDocuments(decathlon)
   } catch (e) {

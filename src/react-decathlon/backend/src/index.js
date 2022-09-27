@@ -14,7 +14,7 @@ const { MeiliSearch } = require('meilisearch')
     meili.waitForTask(indexCreation.taskUid)
 
     const decathlon = require('../decathlon.json')
-    const index = await meili.index('decathlon')
+    const index = meili.index('decathlon')
 
     const newSettings = {
       rankingRules: [

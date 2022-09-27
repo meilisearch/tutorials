@@ -8,7 +8,7 @@ const { MeiliSearch } = require('meilisearch')
 
     const meili = new MeiliSearch(config)
 
-    const index = await meili.index('decathlon')
+    const index = meili.index('decathlon')
 
     const newSettings = {
       rankingRules: [
