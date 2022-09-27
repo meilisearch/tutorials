@@ -9,7 +9,9 @@ const { MeiliSearch } = require('meilisearch')
     const meili = new MeiliSearch(config)
 
     await meili.isHealthy()
-    await meili.createIndex('decathlon')
+    const indexCreation = await meili.createIndex('decathlon')
+
+    meili.waitForTask(indexCreation.taskUid)
 
     const decathlon = require('../decathlon.json')
     const index = await meili.index('decathlon')
