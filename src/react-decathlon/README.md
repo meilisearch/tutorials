@@ -31,7 +31,7 @@ In this repository, you will find a React application that leverages Meilisearch
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/)
 - [Node.js](https://nodejs.org/)
-- [npm](https://docs.npmjs.com/cli/v8/configuring-npm/install) or [yarn](https://yarnpkg.com/) 
+- [npm](https://docs.npmjs.com/cli/v8/configuring-npm/install)
 
 ## 🎬 Getting Started
 
@@ -42,20 +42,7 @@ Navigate to the project folder and run:
 npm install
 ```
 
-or 
-
-```
-yarn
-```
-
 ### 2. Run the setup
-
-```bash
-
-yarn setup_meili
-
-```
-or 
 
 ```bash
 
@@ -75,14 +62,6 @@ This does the following:
 ### 5. Run the project
 
 You can now run the project. The front-end client is now communicating with your Meilisearch instance.
-
-```bash
-
-yarn start
-
-```
-
-or
 
 ```bash
 
