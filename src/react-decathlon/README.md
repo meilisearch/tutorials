@@ -24,7 +24,7 @@
 See our [Documentation](https://docs.meilisearch.com/learn/security/tenant_tokens.html#what-is-multitenancy) or our [API References](https://docs.meilisearch.com/reference/api/).
 
 ## 🎁 Content of this repository
-In this repository, you will find a React application that leverages Meilisearch to create a search-as-you-type experience. This application is the outcome of the tutorial titled [How to implement instant search within 5 minutes in your React app!](https://blog.meilisearch.com/how-to-implement-instant-search-within-5-minutes-in-your-react-app/).
+In this repository, you will find a React application that leverages Meilisearch to create a search-as-you-type experience. This application is the outcome of the tutorial titled [How to implement instant search in your React app!](https://blog.meilisearch.com/how-to-implement-instant-search-within-5-minutes-in-your-react-app/).
 
 ## 📝 Requirements
 
