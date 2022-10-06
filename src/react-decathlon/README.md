@@ -38,6 +38,7 @@ In this repository, you will find a React application that leverages Meilisearch
 ### 1. Install dependencies
 
 Navigate to the project folder and run:
+
 ```
 npm install
 ```
