@@ -10,7 +10,7 @@ function App () {
   const [searchedWord, setSearch] = useState('')
   const [resultSearch, setResults] = useState([])
 
-  // TODO add function to send searchedWord to MeiliSearch when
+  // TODO add function to send searchedWord to MeiliSearch
 
   return (
     <div className='mx-auto'>
