@@ -1,0 +1,17 @@
+body { 
+    font-family: sans-serif; 
+    padding: 1em; 
+}
+
+.ais-SearchBox { 
+    margin: 1em 0; 
+}
+
+.right-panel {
+    margin-left: 210px;
+}
+
+.left-panel {
+    float: left;
+    width: 200px;
+}
