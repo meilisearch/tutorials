@@ -20,7 +20,7 @@ function App () {
             className='h-20 w-auto items-center justify-center p-2 mx-auto'
             src='/wide_logo.png'
             style={{ filter: 'invert(0%)' }}
-            alt=''
+            alt='Decathlon logo'
           />
           <h1 className='flex flex-wrap flex-grow text-3xl w-full justify-center p-4'>
             Stop looking for an item — find it and work hard!
