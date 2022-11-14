@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/master/assets/logos/logo.svg" alt="Meilisearch logo" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/master/assets/logos/logo.svg" alt="Meilisearch logo mark" width="200" height="200" />
 </p>
 <h1 align="center">React + Meilisearch tutorial</h1>
 
