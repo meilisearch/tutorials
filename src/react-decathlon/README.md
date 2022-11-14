@@ -26,7 +26,7 @@ See our [Documentation](https://docs.meilisearch.com/learn/security/tenant_token
 ## 🎁 Content of this repository
 In this repository, you will find a React application that leverages Meilisearch to create a search-as-you-type experience. This application is the outcome of the tutorial titled [How to implement instant search in your React app!](https://blog.meilisearch.com/how-to-implement-instant-search-within-5-minutes-in-your-react-app/).
 
-The `AppInitial.js` file contains the boilerplate code to follow along the tutorial. It has the exact same code as `App.js` but with missing blocks. 
+The `AppInitial.js` file contains the boilerplate code to follow along the tutorial. It has the exact same code as `App.js` but with missing blocks, so you can write the code yourself. 
 
 In the `backend/src/steps` directory you will find the code corresponding to the different instructions of the tutorial illustrating how to:
 - create an index
