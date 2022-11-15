@@ -1,0 +1,9 @@
+version: '3.6'
+services:
+  meilisearch_tutorial:
+    image: getmeili/meilisearch:v0.28
+    restart: always
+    volumes:
+    - ./meili_data:/meili_data
+    ports:
+    - "7700:7700"
