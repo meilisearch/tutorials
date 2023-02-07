@@ -83,7 +83,7 @@ npm i
 npm start
 ```
 
-This will start your express server on [http://localhost:5000](http://localhost:5000)
+This will start your express server on [http://localhost:5001](http://localhost:5001)
 
 ## 3. Frontend
 
@@ -93,7 +93,7 @@ Navigate to `/frontend` and create a **.env** file with content
 REACT_APP_MEILI_HOST=http://localhost:7700
 REACT_APP_MEILI_API_KEY=<PUT_YOUR_API_KEY_HERE>
 REACT_APP_MEILI_INDEX=tenant_token
-REACT_APP_API_HOST=http://localhost:5000
+REACT_APP_API_HOST=http://localhost:5001
 ```
 
 Run the following commands:
