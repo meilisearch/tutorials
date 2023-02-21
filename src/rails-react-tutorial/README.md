@@ -39,14 +39,14 @@ In this repository, you will find a simple recipe RoR application that leverages
 
 ```bash
 # Fetch the latest version of Meilisearch image from DockerHub
-docker pull getmeili/meilisearch:v1.0
+docker pull getmeili/meilisearch:v1.0.1
 
 # Launch Meilisearch in development mode with a master key
 docker run -it --rm \
     -p 7700:7700 \
     -e MEILI_ENV='development' \
     -v $(pwd)/meili_data:/meili_data \
-    getmeili/meilisearch:v1.0
+    getmeili/meilisearch:v1.0.1
 ```
 
 ### 1. Install dependencies
