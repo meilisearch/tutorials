@@ -6,16 +6,13 @@
 <h4 align="center">
   <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a> |
   <a href="https://docs.meilisearch.com">Documentation</a> |
+  <a href="https://discord.gg/meilisearch">Discord</a> |
   <a href="https://www.meilisearch.com">Website</a> |
   <a href="https://blog.meilisearch.com">Blog</a> |
+  <a href="https://fr.linkedin.com/company/meilisearch">LinkedIn</a> |
   <a href="https://twitter.com/meilisearch">Twitter</a> |
-  <a href="https://docs.meilisearch.com/faq">FAQ</a>
+  <a href="https://docs.meilisearch.com/faq/">FAQ</a>
 </h4>
-
-<p align="center">
-  <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-meilisearch-blue.svg?logo=slack" alt="Slack"></a>
-  <a href="https://github.com/meilisearch/meilisearch/discussions" alt="Discussions"><img src="https://img.shields.io/badge/github-discussions-red" /></a>
-</p>
 
 <p align="center">Integrate an extremely fast and relevant search into your Rails app using Meilisearch and React</p>
 
@@ -36,6 +33,22 @@ In this repository, you will find a simple recipe RoR application that leverages
 
 ## 🎬 Getting Started
 
+### Prerequisites
+
+[Download and launch Meilisearch](https://docs.meilisearch.com/learn/getting_started/quick_start.html) using the basic configuration. For example, by using [Docker](https://docs.docker.com/get-docker/) in your terminal.
+
+```bash
+# Fetch the latest version of Meilisearch image from DockerHub
+docker pull getmeili/meilisearch:v1.0
+
+# Launch Meilisearch in development mode with a master key
+docker run -it --rm \
+    -p 7700:7700 \
+    -e MEILI_ENV='development' \
+    -v $(pwd)/meili_data:/meili_data \
+    getmeili/meilisearch:v1.0
+```
+
 ### 1. Install dependencies
 
 Navigate to the project folder and run:
@@ -52,7 +65,7 @@ Set your Meilisearch host and API key in the `config/initializers/meilisearch.rb
 Run the following commands:
 
 ```
-bin/rails db:create 
+bin/rails db:create
 bin/rails db:migrate
 bin/rails db:seed
 ```
@@ -64,4 +77,4 @@ Start the development server by running:
 bin/dev
 ```
 
-Visit [http://localhost:3000](http://localhost:3000) in your browser and start searching with Meilisearch! 
+Visit [http://localhost:3000](http://localhost:3000) in your browser and start searching with Meilisearch!
