@@ -3,7 +3,7 @@ import { InstantSearch, Highlight, SearchBox, Hits, RefinementList, ClearRefinem
 import { instantMeiliSearch } from '@meilisearch/instant-meilisearch';
 
 const searchClient = instantMeiliSearch(
-  "http://127.0.0.1:7700",
+  "http://localhost:7700",
   ""
 );
 
