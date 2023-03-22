@@ -24,7 +24,7 @@ const { MeiliSearch } = require('meilisearch')
         'attribute',
         'sort',
         'exactness',
-        'desc(creation_date)'
+        'creation_date:desc'
       ]
     }
 
