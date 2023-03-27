@@ -3,7 +3,7 @@ import { MeiliSearch } from 'meilisearch'
 import Item from './components/Item'
 
 const client = new MeiliSearch({
-  host: 'http://127.0.0.1:7700/'
+  host: 'http://localhost:7700/'
 })
 
 const index = client.index('decathlon')
